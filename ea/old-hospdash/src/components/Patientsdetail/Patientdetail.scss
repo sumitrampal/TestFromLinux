@@ -1,0 +1,23 @@
+.patient_detail{
+  padding: 4rem 7rem;
+
+  .patient-row{
+    cursor: pointer;
+
+    .patient-btn {
+      border: 1px solid gray;
+      border-radius:10px;
+      font-weight: 600;
+      outline:none;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 10px;
+      margin-bottom: 2rem;
+      display: block;
+      margin-left: -5px
+    }
+    .status-btn{
+      text-align: center;
+    }
+    }
+}

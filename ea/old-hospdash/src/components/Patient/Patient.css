@@ -1,0 +1,15 @@
+.appointment {
+  background-color: #0c065e;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  /* opacity: 0.64; */
+  padding: 1rem 5rem;
+  
+}
+
+.hub{
+  color: #ffffff; 
+  font-size: 44px;
+  font-family: 'Poppins';
+  font-weight: bold;
+}

@@ -1,0 +1,34 @@
+.appointment {
+  background-color: #0c065e;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  /* opacity: 0.64; */
+  padding: 0.5rem 4rem;
+  margin-top: 20px;
+}
+
+.hub{
+  color: #ffffff;
+  font-size: 44px;
+  font-family: 'Poppins';
+  font-weight: bold;
+}
+
+.select_box{
+  margin-top: 15px;
+  margin-left: 40px;
+  padding-right: 40px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border: 1px solid #0C065E;
+  color: #0C065E !important;
+  background-color: #ffffff;
+  cursor: pointer;
+  border-radius: 4px;
+  font-family: 'Nunito Sans';
+  font-weight : bolder;
+}
+
+.select_box:focus{
+  outline: none;
+}

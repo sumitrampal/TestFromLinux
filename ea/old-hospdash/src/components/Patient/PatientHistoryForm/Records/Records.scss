@@ -1,0 +1,35 @@
+.dashboard-records{
+  background-color: #fff;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0 10px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 0 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 0 10px;
+  padding: 2rem 4rem;
+  margin-top: 40px;
+
+
+  .documents-list{
+
+
+    .document{
+      border-radius: 15px;
+      padding: 10px;
+      margin-right: 40px;
+      background-color: green;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      max-width: 150px;
+      text-align: center;
+      min-height: 120px;
+    }
+    .document-active{
+      background: #644CCD
+    }
+  }
+
+}

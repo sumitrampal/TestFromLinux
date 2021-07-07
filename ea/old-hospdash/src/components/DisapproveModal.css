@@ -1,0 +1,38 @@
+.modal_disapprove{
+  background-color: red;
+  color: white;
+  padding: 5px 40px;
+  text-align: center;
+  border-radius: 5px;
+  display: inline-block;
+  border: 1px solid red;
+}
+.Select_button{
+  background-color: #ffffff;
+  border: 1px solid #5032D5;
+  color: #5032D5;
+  /* text-align: center; */
+  text-decoration: none;
+  display: flex;
+  padding: 10px;
+  flex-direction: row;
+  align-items: center !important;
+  justify-content: space-between;
+  /*text-align: center;*/
+  /* margin: 4px 5px; */
+  cursor: pointer;
+  font-size: 0.8rem;
+  border-radius: 10px;
+  width: 90%;
+  height: 45px;
+  margin: 10px auto;
+}
+.Select_button label{
+	font-size: 12px !important;
+	padding-top: 5px
+}
+
+.disapprove-active{
+	color: white;
+	background: #5032D5
+}

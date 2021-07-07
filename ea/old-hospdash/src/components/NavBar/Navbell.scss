@@ -1,0 +1,75 @@
+.notifications{
+  position: relative;
+  .navbell{
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+  }
+  .navbell-container:hover + .notification-dropdown{
+    display: block
+  }
+  .show{
+    display: block;
+  }
+  .notification-number{
+    position: absolute;
+    border: 2px solid white;
+    background: #5032D5;
+    color: white;
+    width: 20px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    top:-15px;
+    right: -15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    border-radius: 100px
+  }
+  .notification-dropdown {
+    background: white;
+    color: #676767;
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: -20px;
+    z-index: 100;
+    width: 280px;
+    padding: 0px 10px 0 10px;
+    border-radius: 15px;
+    .notification-dropdown-triangle{
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      z-index: 111;
+      top: -10px;
+      transform: rotate(45deg);
+      right: 25px;
+      background: white
+    }
+    .notification{
+      padding: 10px 20px;
+      border-bottom: 1px solid #676767;
+      animation: moveLeft 1s;
+      font-size: 0.6rem
+    }
+    .notification:last-child{
+      border-bottom: 0;
+    }
+  }
+}
+@keyframes moveLeft{
+  0%{
+    opacity: 0;
+    transform: translateX(40px);
+  }
+  80%{
+    opacity: 0.8;
+    transform: translateX(-10px);
+  }
+  100%{
+    opacity: 1;
+    transition: translate(0)
+  }
+}

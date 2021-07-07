@@ -1,0 +1,88 @@
+/* .remark {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+} */
+
+/* .deposit {
+  margin-top: 4rem;
+}
+
+.treatment {
+  margin-top: 2rem;
+} */
+
+#err-line, #succ-saved{
+  display: none;
+  text-align: center;
+}
+.remove-doc{  
+  color: black;
+  font-weight: 700;
+  position: absolute;
+  right: 5px;
+  font-size: 1.25rem;
+  top: 5px;
+}
+.modal_approve{
+  background-color: #4CAF50;
+  color: white;
+  padding: 5px 40px;
+  text-align: center;
+  border-radius: 5px;
+  display: inline-block;
+  border: 1px solid green;
+}
+
+button:focus{
+  border: none;
+  outline: none;
+}
+.treatment{
+  margin-top: 1rem !important
+}
+.text_remark{
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background-color: #ffffff;
+  font-size: 16px;
+  resize: none;
+}
+
+.cancel_button{
+  background-color: #ffffff;
+  border: 1px solid #5032D5;
+  color: black;
+  padding: 5px ;
+  text-align: center;
+  text-decoration: none;
+  margin: 4px auto;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 45% !important;
+  font-size: 0.8rem
+}
+
+.Send_button{
+  background-color: #ffffff;
+  border: 1px solid #5032D5;
+  color: #5032D5;
+  padding: 5px ;
+  text-align: center;
+  text-decoration: none;
+  margin: 4px  auto;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 45%;
+  font-size: 0.8rem
+}
+div[role=presentation]{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}

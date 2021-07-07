@@ -1,0 +1,42 @@
+.quote_heading {
+  /* basic */ 
+   background-color: #fff;
+  /* border-radius */
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+  /* box-shadow */
+    -webkit-box-shadow: rgba(0,0,0,0.1) 0px 0 10px;
+   -moz-box-shadow: rgba(0,0,0,0.1) 0 0 10px;
+   box-shadow: rgba(0,0,0,0.1) 0 0 10px;
+   
+   padding: 5rem;
+  }
+
+ .remark{
+   margin-top: 5rem;
+   font-family: Poppins, Regular;
+ }
+
+ .deposit{
+   margin-top: 4rem;
+ }
+
+ .treatment{
+   margin-top: 2rem;
+ }
+
+ .warning{
+   text-align: center;
+   margin-top: 5rem;
+   font-family: Poppins, Regular;
+ }
+
+ .disapproved{
+  background-color: #ffffff;
+  color: red;
+  padding: 10px 10px;
+  text-align: center;
+  border-radius: 16px;
+  border: 1px solid red;
+ }

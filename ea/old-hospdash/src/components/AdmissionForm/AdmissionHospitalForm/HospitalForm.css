@@ -1,0 +1,58 @@
+ .admissionHospitalForm {
+  padding: 40px;
+  box-shadow: 0px 4px 6px #00000029;
+  border-radius: 15px;
+  align-items: center;
+  margin-bottom: 40px;
+  color: #666666 !important;
+}
+
+#saved-line {
+  display: none;
+}
+
+form {
+  margin-top: 40px;
+}
+
+.insurance-btn{
+  background-color:#ffffff; 
+  color: #0c065e;
+  box-shadow: 0px 4px 6px #00000029;
+  padding: 1rem 1.5rem;
+  margin-left: auto;
+  font-weight: 900;
+  border: 1px solid #0c065e;
+  border-radius: 15px;
+}
+.insurance-btn:hover{
+  background-color:#0c065e;
+  color: #ffffff;
+
+}
+
+label {
+  color: #666666;
+  font-size: 18px !important;
+  font-weight: 400;
+}
+textarea,
+input {
+  border-color: #707070;
+  border-radius: 5px;
+}
+
+.details-btn {
+  background-color: #5032d5;
+  color: white;
+  margin: auto;
+  padding: 10px 40px;
+  border-radius: 15px;
+}
+
+ .p-green {
+  color: #02a51d !important;
+  font-weight: 600;
+  font-size: 0.8rem;
+  margin: 0;
+}

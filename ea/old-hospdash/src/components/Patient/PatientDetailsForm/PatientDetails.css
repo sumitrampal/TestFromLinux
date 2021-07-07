@@ -1,0 +1,47 @@
+.patient_form {
+  /* basic */
+  background-color: #fff;
+  /* border-radius */
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  /* box-shadow */
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0 10px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 0 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 0 10px;
+  padding: 2rem 4rem;
+}
+.patient_form .justify-content-between{
+  align-items: center;
+}
+.blue-card{
+  background-color: #5032D5;
+  padding: 10px;
+  color:white;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  font-weight: 600
+}
+.blue-card span{
+  font-size: 1.5rem;
+  margin: 0
+}
+.action-btn{
+  width: 150px;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  color:white;
+  border: none;
+  border-radius: 10px
+}
+#approve-btn{
+  background-color: #02A51D
+}
+#disapprove-btn{
+  background-color: #F01045
+}
